@@ -1,0 +1,16 @@
+body {
+    background-color: #011212;
+}
+
+:root {
+    --spacing: 100px;
+    --color: #ff8800;
+    --border: 50px;
+}
+
+.ball {
+    width: var(--spacing);
+    height: var(--spacing);
+    background-color: var(--color);
+    border-radius: var(--border);
+}

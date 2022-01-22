@@ -1,0 +1,151 @@
+.container {
+    margin: auto;
+    height:  340px;
+    width: 320px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 2px;
+    background-color: darkslategray;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px -2px gray;
+    }
+    
+.return { 
+    grid-column: 1 / 5;
+    grid-row: 1;
+    text-align: right; 
+    background-color: darkslategray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    color : white;
+    font-size: 32px;
+    }
+
+.plus { 
+    grid-column: 1;
+    grid-row: 2;
+    background-color: slategray;
+    padding-top: 20%;
+    }
+
+.minus {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: slategray;
+    padding-top: 20%;
+    }
+
+.by {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: slategray;
+    padding-top: 20%;
+    }
+    
+.did {
+    grid-column: 4;
+    grid-row: 2;
+    background-color: slategray;
+    padding-top: 20%;
+    }
+
+.seven {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: gainsboro;
+    padding-top: 20%;
+    }
+
+.eight {
+    grid-column: 2;
+    grid-row: 3;
+    background-color: gainsboro;
+    padding-top: 20%;
+    }
+
+.nine {
+    grid-column: 3;
+    grid-row: 3;
+    background-color: gainsboro;
+    padding-top: 20%;
+    }
+
+.equal {
+    grid-column: 4;
+    grid-row: 3 / 7;
+    background-color: lightcoral;
+    border-bottom-right-radius: 10px;
+    padding-top: 130%;
+    }
+
+.four {
+    grid-column: 1;
+    grid-row: 4;
+    background-color: gainsboro;
+    padding-top: 20%;
+    }
+
+.five {
+    grid-column: 2;
+    grid-row: 4;
+    background-color: gainsboro;
+    padding-top: 20%;
+    }
+
+.six {
+    grid-column: 3;
+    grid-row: 4;
+    background-color: gainsboro;
+    padding-top: 20%;
+    }
+    
+.one {
+    grid-column: 1;
+    grid-row: 5;
+    background-color: gainsboro;
+    padding-top: 20%;
+    }
+
+.two {
+    grid-column: 2;
+    grid-row: 5;
+    background-color: gainsboro;
+    padding-top: 20%;
+    }
+
+.three {
+    grid-column: 3;
+    grid-row: 5;
+    background-color: gainsboro;
+    padding-top: 20%;
+    }
+
+.zero {
+    grid-column: 1;
+    grid-row: 6;
+    background-color: gainsboro;
+    border-bottom-left-radius: 10px;
+    padding-top: 20%;
+    }
+
+.dot {
+    grid-column: 2;
+    grid-row: 6;
+    background-color: gainsboro;
+    padding-top: 20%;
+    }
+
+.clear {
+    grid-column: 3;
+    grid-row: 6;
+    background-color: gainsboro;
+    padding-top: 20%;
+    }
+
+
